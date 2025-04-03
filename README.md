@@ -2,7 +2,7 @@
 Computing Chamfer Distance and vIOU for Cryo-EM maps.
 
 
-  chimerax --nogui batch_level_predictor.py /path/to/mrc_files
+  `chimerax --nogui batch_level_predictor.py /path/to/mrc_files`
 
 Adapted from https://github.com/mariacarreira/calc_level_ChimeraX/tree/main 
 
