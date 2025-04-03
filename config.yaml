@@ -12,7 +12,7 @@ pred_models:
     path: /scratch/gpfs/ZHONGE/mj7341/research/01_generalizable-cryoem/metrics/per_image_fsc/snr001/IgG-RL/cryodrgn/cryodrgn_20ep/vols
 
 thresholds: [0.05, 0.10, 0.15, 0.20, 0.25, 0.30, 0.35, 0.40, 0.45, 0.50]
-mask: null
+mask: /scratch/gpfs/ZHONGE/mj7341/data/cryobench/IgG-RL/init_mask/mask.mrc
 grid_size: 128
 voxel_size: 4.5
-output_dir: ./results_IgG-RL
+output_dir: ./results/IgG-RL
