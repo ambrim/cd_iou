@@ -1,8 +1,0 @@
-dataset: IgG-RL
-gt_dir: /scratch/gpfs/ZHONGE/mj7341/research/01_generalizable-cryoem/results/IgG-RL/proj/ours/crop_5views/vols_Apix3
-pred_dir: /scratch/gpfs/ZHONGE/mj7341/research/01_generalizable-cryoem/metrics/per_image_fsc/proj/IgG-RL/cryodrgn_20ep/vols
-mask: null  # Optional, set to a path if a mask is used, or leave as null
-thresholds: [0.05, 0.10, 0.15, 0.20, 0.25, 0.30, 0.35, 0.40, 0.45, 0.50]
-grid_size: 128
-voxel_size: 4.5
-output_dir: ./results_IgG-RL

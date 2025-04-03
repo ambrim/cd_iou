@@ -1,0 +1,18 @@
+dataset: IgG-RL
+gt_dir: /scratch/gpfs/ZHONGE/mj7341/data/cryobench/IgG-RL/vols/128_org/
+
+pred_models:
+  - name: CryoHype (No noise)
+    path: /scratch/gpfs/ZHONGE/mj7341/research/01_generalizable-cryoem/results/IgG-RL/proj/ours/crop_5views/vols_Apix3
+  - name: CryoDRGN (No noise)
+    path: /scratch/gpfs/ZHONGE/mj7341/research/01_generalizable-cryoem/metrics/per_image_fsc/proj/IgG-RL/cryodrgn_20ep/vols
+  - name: CryoHype (SNR 0.01)
+    path: /scratch/gpfs/ZHONGE/jg1427/results/IgG-RL/noisy_crop/vols
+  - name: CryoDRGN (SNR 0.01)
+    path: /scratch/gpfs/ZHONGE/mj7341/research/01_generalizable-cryoem/metrics/per_image_fsc/snr001/IgG-RL/cryodrgn/cryodrgn_20ep/vols
+
+thresholds: [0.05, 0.10, 0.15, 0.20, 0.25, 0.30, 0.35, 0.40, 0.45, 0.50]
+mask: null
+grid_size: 128
+voxel_size: 4.5
+output_dir: ./results_IgG-RL
