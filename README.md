@@ -46,9 +46,9 @@ vol_002.mrc    0.0551
 ...
 ```
 
-Then modify `config_levelmode.yaml` to point to these files, and run:
+Then modify `config_levels.yaml` to point to these files, and run:
 ```bash
-python evaluate_metrics_levels.py --config config_levelmode.yaml
+python evaluate_metrics_levels.py --config config_levels.yaml
 ```
 
 ---
