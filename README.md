@@ -3,6 +3,7 @@
 
 ## 📁 Structure
 
+more simple version for just 2 structures with argparse
 ```
 evaluate_metrics.py               # Script for fixed-threshold evaluations on 4 models
 evaluate_metrics_levels.py        # Script for per-volume predicted level evaluations on 4 models
